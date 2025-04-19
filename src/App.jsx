@@ -5,6 +5,7 @@ import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Contact from './components/Contact';
 import Testimonials from './components/Testimonials';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
           }
         />
       </Routes>
+      <Footer/>
     </Router>
   );
 }
