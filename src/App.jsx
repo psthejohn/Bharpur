@@ -6,7 +6,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
-
+// Testing main branch push from mac
 function App() {
   return (
     <Router>
