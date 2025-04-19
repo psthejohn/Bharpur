@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
-    <section className="text-center py-20 bg-gray-50">
+    <section className="text-center py-20">
       <h2 className="text-4xl font-bold mb-6">Email Designs that Convert</h2>
       <p className="text-lg mb-8 text-gray-700">
         I specialize in crafting responsive, visually stunning, and high-performing email templates.
