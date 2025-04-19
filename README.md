@@ -100,12 +100,3 @@ Designed & developed by Pushpinder Singh - Powered by React + Tailwind ✨
 
 
 ---
-
-You can now create a file named `README.md` in the root of your project and paste this code into it ✅
-
-Let me know if you want a version with:
-- Shields/badges (build, Netlify, GitHub)
-- A screenshot banner
-- Custom favicon or SEO tags
-
-💼 You're ready to impress clients and recruiters!
