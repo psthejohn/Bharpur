@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="text-xl font-bold text-indigo-600">BHARPUR</div>
         <div className="space-x-4">
-          {['/', '/portfolio', '/about', '/contact','/testimonials'].map((path, index) => (
+          {['/', '/portfolio', '/about','/testimonials'].map((path, index) => (
             <NavLink
               key={index}
               to={path}
@@ -14,7 +14,7 @@ export default function Navbar() {
                 isActive ? 'text-indigo-600 font-semibold' : 'text-gray-600 hover:text-indigo-600'
               }
             >
-              {['Home', 'Portfolio', 'About', 'Contact','Testimonials'][index]}
+              {['Home', 'Portfolio', 'About','Testimonials'][index]}
             </NavLink>
           ))}
         </div>
