@@ -1,0 +1,20 @@
+npm create vite@latest email-agency-spa -- --template react
+cd email-agency-spa
+npm install
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+Configure tailwind.config.js with:
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx}"
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+Add Tailwind directives to your src/index.css:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
